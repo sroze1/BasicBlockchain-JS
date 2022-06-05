@@ -13,7 +13,7 @@ both of which can be downloaded using npm.
 ## Simple Explanation on Blockchain:
 
 - Blockchain involves nodes on a P2P network and consists of blocks of data.
-- Each 'block' has a hash - a randomly generated string of characters and numners (like a fingerprint) to uniquely reference a block.
+- Each 'block' has a hash - a randomly generated string of characters and numbers (like a fingerprint) to uniquely reference a block.
 - Blocks can contain any data, in the case of cryptocurrencies such as Bitcoin, they contain data on an amount of funds
 - Excluding the first block (called genesis block), each block along with a hash, also has a previousBlock hash to reference the previous Block.
 - The previousBlock hash is important, as any time a block of data is tampered with, it's hash is also recalculated (ie the fingerprint is changed).
